@@ -7,7 +7,7 @@ Les objectifs principaux de ce TP sont :
 2. Faire fonctionner les tests unitaires 
 3. Faire fonctionner les tests instrumentaires 
 4. Convertir le code Java en Kotlin
-5. Utiliser le view binging
+5. Utiliser le view binding
 6. Commenter le code source
 7. Identifier au moins une faille dans le projet et la corriger
 
