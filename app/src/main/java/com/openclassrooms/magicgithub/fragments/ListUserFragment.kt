@@ -9,13 +9,13 @@ import androidx.annotation.VisibleForTesting
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.openclassrooms.magicgithub.databinding.ActivityListFragmentBinding
 import com.openclassrooms.magicgithub.model.User
 import com.openclassrooms.magicgithub.repository.UserRepository
 import com.openclassrooms.magicgithub.ui.user_list.ListUserActivity
-import com.openclassrooms.magicgithub.adapters.UserListAdapter
-import com.openclassrooms.magicgithub.databinding.ActivityListFragmentBinding
+import com.openclassrooms.magicgithub.ui.user_list.UserListAdapter
 
-class ListUserFragment:Fragment(), UserListAdapter.Listener {
+class ListUserFragment:Fragment(),UserListAdapter.Listener {
     @VisibleForTesting
     lateinit var repository: UserRepository
     private lateinit var binding: ActivityListFragmentBinding

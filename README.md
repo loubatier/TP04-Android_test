@@ -13,7 +13,7 @@ Les objectifs principaux de ce TP sont :
 
 > Les tests unitaires permettent de tester les différentes fonctions implémentant la logique métier de l'application afin de garantir qu'elles remplissent bien leur rôle.
 
-> Les ters instrumentaires peremttent de tester le comportement de l'interface de l'appliacation par rapport aux actions utilisateurs. Ils permettent de simuler de manière automatique le comportement utilisateur et déterminer si l'application réagit correctement. 
+> Les tests instrumentaires permettent de tester le comportement de l'interface de l'application par rapport aux actions utilisateurs. Ils permettent de simuler de manière automatique le comportement utilisateur et déterminer si l'application réagit correctement.
 
 ## Comment procéder ?
 1. Forker le repository dans votre espace personnel
